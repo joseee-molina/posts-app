@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Registrarse-->
+        <!--Sign up-->
         <scene sceneID="X5B-hV-Udg">
             <objects>
                 <viewController id="HEw-Tl-S2b" customClass="RegisterViewController" customModule="PlatziTweets" customModuleProvider="target" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="height" constant="57" id="bsg-d1-aMP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Registrarse">
+                                        <state key="normal" title="Sign up">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -74,7 +74,7 @@
                             <constraint firstItem="iE9-p8-e5g" firstAttribute="top" secondItem="Udf-Mp-eWy" secondAttribute="top" constant="20" id="ZwY-j2-09c"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Registrarse" largeTitleDisplayMode="always" id="8WP-6j-CNQ"/>
+                    <navigationItem key="navigationItem" title="Sign up" largeTitleDisplayMode="always" id="8WP-6j-CNQ"/>
                     <connections>
                         <outlet property="confirmPasswordTextField" destination="RXR-c2-Lsx" id="2Hs-EJ-eK9"/>
                         <outlet property="emailTextField" destination="YP0-Zd-fyG" id="h9v-0t-rnn"/>
@@ -108,8 +108,8 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="La gran comunidad de desarrolladores" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1h-su-7pQ">
-                                        <rect key="frame" x="50" y="395" width="314" height="69"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A great developer community" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1h-su-7pQ">
+                                        <rect key="frame" x="95" y="395" width="225" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -121,7 +121,7 @@
                                             <constraint firstAttribute="height" constant="57" id="6HF-0C-Eg8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Iniciar sesión">
+                                        <state key="normal" title="Log in">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -130,7 +130,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1q-Dz-jVj">
                                         <rect key="frame" x="50" y="791" width="314" height="30"/>
-                                        <state key="normal" title="Registrarse">
+                                        <state key="normal" title="Sign up">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -176,7 +176,7 @@
             </objects>
             <point key="canvasLocation" x="908.69565217391312" y="61.607142857142854"/>
         </scene>
-        <!--Iniciar sesión-->
+        <!--Log in-->
         <scene sceneID="wQf-66-Baq">
             <objects>
                 <viewController id="9dk-fm-tMu" customClass="LoginViewController" customModule="PlatziTweets" customModuleProvider="target" sceneMemberID="viewController">
@@ -200,7 +200,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UtQ-lx-VkN">
                                         <rect key="frame" x="0.0" y="88" width="374" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordar correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTr-PG-5gY">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember e-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTr-PG-5gY">
                                                 <rect key="frame" x="0.0" y="0.0" width="325" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -224,7 +224,7 @@
                                             <constraint firstAttribute="height" constant="57" id="R83-e6-gwp"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Iniciar sesión">
+                                        <state key="normal" title="Log in">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -251,7 +251,7 @@
                             <constraint firstItem="Hl4-qO-5y4" firstAttribute="leading" secondItem="0Ig-hN-KDd" secondAttribute="leading" id="irx-TR-QUI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Iniciar sesión" id="7jA-A5-bQ0"/>
+                    <navigationItem key="navigationItem" title="Log in" id="7jA-A5-bQ0"/>
                     <connections>
                         <outlet property="emailSwitch" destination="LqD-et-UdG" id="WNG-zZ-8UU"/>
                         <outlet property="emailTextField" destination="muQ-vd-1LS" id="5j1-Qu-YvJ"/>
@@ -292,7 +292,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jtb-yj-ROA"/>
+        <segue reference="IKq-Ba-1Ui"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bottomImage" width="351.5" height="123"/>
